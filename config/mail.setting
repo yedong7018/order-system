@@ -1,0 +1,8 @@
+# 发件人（必须正确，否则发送失败）
+from = 15813365456@163.com
+# 密码（注意，某些邮箱需要为SMTP服务单独设置密码，详情查看相关帮助）
+pass = qq873546061
+
+subject = 找回密码
+
+content = <a href="http://localhost:8080/ordersystem/user?m=to_reset_pwd&code={}">点击这里重置密码</a>

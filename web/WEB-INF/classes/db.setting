@@ -1,0 +1,27 @@
+## db.setting文件
+
+## 基本配置信息
+driver = com.mysql.jdbc.Driver
+url = jdbc:mysql://127.0.0.1:3306/order?useUnicode=true&characterEncoding=utf8&useSSL=false
+username = root
+password = 1234qwer
+
+## 可选配置
+showSql = true
+formatSql = false
+showParams = true
+
+## Druid配置
+filters = stat
+maxActive = 20
+initialSize = 1
+maxWait = 60000
+minIdle = 1
+timeBetweenEvictionRunsMillis = 60000
+minEvictableIdleTimeMillis = 300000
+testWhileIdle = true
+testOnBorrow = false
+testOnReturn = false
+poolPreparedStatements = true
+maxOpenPreparedStatements = 20
+asyncInit = true
